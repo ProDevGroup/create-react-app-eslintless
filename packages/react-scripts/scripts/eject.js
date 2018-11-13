@@ -212,10 +212,10 @@ inquirer
     };
 
     // Add ESlint config
-    console.log(`  Adding ${cyan('ESLint')} configuration`);
-    appPackage.eslintConfig = {
-      extends: 'react-app',
-    };
+    // console.log(`  Adding ${cyan('ESLint')} configuration`); // make eslintless -start
+    // appPackage.eslintConfig = {
+    //   extends: 'react-app',
+    // }; // make eslintless - end
 
     fs.writeFileSync(
       path.join(appPath, 'package.json'),
