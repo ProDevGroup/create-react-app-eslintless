@@ -1,6 +1,6 @@
 # Create React App ESLintless
 
-This repo is a fork of `create-react-app`. Only modifications are eslint integration has been removed from `react-scripts` and `babel-plugin-styled-components` has been added the webpack config.
+This repo is a fork of `create-react-app`. Only modifications are `eslint` integration has been removed from `react-scripts` and `babel-plugin-styled-components` has been added to the `react-scripts` webpack config.
 
 Package can be found on [npm](https://www.npmjs.com/package/@nomoreanalog/react-scripts-eslintless).
 
