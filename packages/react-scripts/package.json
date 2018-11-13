@@ -1,14 +1,14 @@
 {
-  "name": "@nomoreanalog/react-scripts",
+  "name": "@nomoreanalog/react-scripts-eslintless",
   "version": "2.1.1",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "joserocha3/create-react-app",
+  "repository": "joserocha3/create-react-app-eslintless",
   "license": "MIT",
   "engines": {
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/joserocha3/create-react-app/issues"
+    "url": "https://github.com/joserocha3/create-react-app-eslintless/issues"
   },
   "files": [
     "bin",
