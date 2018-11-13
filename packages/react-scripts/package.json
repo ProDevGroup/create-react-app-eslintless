@@ -1,6 +1,6 @@
 {
   "name": "@nomoreanalog/react-scripts-eslintless",
-  "version": "2.1.1",
+  "version": "2.1.5",
   "description": "Configuration and scripts for Create React App.",
   "repository": "joserocha3/create-react-app-eslintless",
   "license": "MIT",
@@ -65,6 +65,7 @@
     "workbox-webpack-plugin": "3.6.3"
   },
   "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   },
