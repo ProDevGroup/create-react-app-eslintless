@@ -38,6 +38,14 @@ function getGitStatus() {
   }
 }
 
+console.log(
+  chalk.cyan.bold(
+    'NOTE: Create React App 2 supports TypeScript, Sass, CSS Modules and more without ejecting: ' +
+      'https://reactjs.org/blog/2018/10/01/create-react-app-v2.html'
+  )
+);
+console.log();
+
 inquirer
   .prompt({
     type: 'confirm',
@@ -212,10 +220,12 @@ inquirer
     };
 
     // Add ESlint config
-    // console.log(`  Adding ${cyan('ESLint')} configuration`); // make eslintless -start
+    // make eslintless -start
+    // console.log(`  Adding ${cyan('ESLint')} configuration`);
     // appPackage.eslintConfig = {
     //   extends: 'react-app',
-    // }; // make eslintless - end
+    // }; 
+    // make eslintless -start// make eslintless - end
 
     fs.writeFileSync(
       path.join(appPath, 'package.json'),

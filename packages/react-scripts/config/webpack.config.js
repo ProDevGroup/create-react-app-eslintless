@@ -303,7 +303,8 @@ module.exports = function(webpackEnv) {
 
         // First, run the linter.
         // It's important to do this before Babel processes the JS.
-        // {  // make eslintless - start
+        // make eslintless - start
+        // { 
         // test: /\.(js|mjs|jsx)$/,
         // enforce: 'pre',
         // use: [
@@ -324,7 +325,8 @@ module.exports = function(webpackEnv) {
         // },
         // ],
         // include: paths.appSrc,
-        // },  // make eslintless - end
+        // },
+        // make eslintless - end
         {
           // "oneOf" will traverse all following loaders until one will
           // match the requirements. When no loader matches it will fall
@@ -636,8 +638,8 @@ module.exports = function(webpackEnv) {
             '!**/*.json',
             '!**/__tests__/**',
             '!**/?(*.)(spec|test).*',
-            '!src/setupProxy.js',
-            '!src/setupTests.*',
+            '!**/src/setupProxy.*',
+            '!**/src/setupTests.*',
           ],
           watch: paths.appSrc,
           silent: true,
